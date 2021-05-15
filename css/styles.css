@@ -17,6 +17,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /*Typography*/
 html {
   font-size: 62.5%; /*of 16px = 10px*/
@@ -619,9 +624,4 @@ a {
 .block--skewed-left {
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
   padding-bottom: calc(var(--padding-vertical) + 4rem);
-}
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
 }
